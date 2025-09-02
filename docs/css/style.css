@@ -1,0 +1,89 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(109, 123, 170);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.bem{
+    display: inline-block;
+    margin-left: 200px;
+}
+.menu{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+    border-style:outset;
+    border-radius: 30px;
+    width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.menu a:hover{
+    color: blue;
+}
+.menu:hover{
+    background-color: aquamarine;
+
+}
+.fundo{
+    background-color: rgb(72, 100, 179);
+    padding: 20px;
+    
+}
+.coorpo{
+    background-color: rgb(25, 51, 122);
+    height: 30px;
+}
+.lista{
+    margin-left: 300px;
+    padding: 5px;
+    
+}
+.int{
+    background-color: rgb(61, 103, 139);
+    padding-left: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
+    border: 2px solid;
+    border-color: rgb(29, 29, 73);
+    border-style: outset; 
+    font-size: 15px;
+    display: inline;
+    margin: 10px;
+    list-style: none;
+    
+}
+.int a{
+    text-decoration: none;
+    color: black;
+}
+.int a:hover{
+    color: aqua;
+}
+.foto{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.foto img{
+    border: 5px solid;
+    width: 400px;
+}
+.text1{
+    margin-left: 250px;
+    margin-bottom: px;
+}
+.text1 h2{
+    padding-top: 0px;
+    margin: 100px;
+}
+.pag{
+    display: inline-flex;
+}
