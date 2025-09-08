@@ -7,7 +7,7 @@ body{
 }
 .bem{
     display: inline-block;
-    margin-left: 200px;
+    margin-left: 50px;
 }
 .menu{
     text-align: center;
@@ -43,7 +43,7 @@ body{
     height: 30px;
 }
 .lista{
-    margin-left: 300px;
+    margin-left: 20%;
     padding: 5px;
     
 }
@@ -71,6 +71,7 @@ body{
 .foto{
     margin-top: 80px;
     margin-left: 150px;
+    padding-left: 15px;
 }
 .foto img{
     border: 5px solid;
@@ -81,9 +82,96 @@ body{
     margin-bottom: px;
 }
 .text1 h2{
-    padding-top: 0px;
-    margin: 100px;
+    padding-top: 50px;
+    margin:30px;
+    margin-left: 120px;
 }
 .pag{
     display: inline-flex;
+}
+.pag .text1 p{
+    width: 400px;
+    text-align: center;
+    margin-left: 1%;
+    background-color: rgb(78, 92, 151);
+    border: 3px solid;
+    padding: 10px;
+}
+.cop{
+    margin: 50px;
+    margin-left: 150px;
+}
+.cop .list5{
+    font-family: cursive;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 3px solid;
+    background-color: rgb(78, 92, 151);
+    width: 500px;
+}
+.cop2{
+    margin: 50px;
+    margin-left: 80px;
+}
+.cop2 .list6{
+    font-family: cursive;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 3px solid;
+    background-color: rgb(78, 92, 151);
+    width: 500px;
+}
+.liss{
+    display: inline-flex;
+}
+.dez{
+    display: inline-flex;
+}
+.cop10{
+    margin: 50px;
+    margin-left: 150px;
+}
+.cop10 .list10{
+    font-family: cursive;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 3px solid;
+    background-color: rgb(78, 92, 151);
+    width: 500px;
+}
+.cop11{
+    margin: 50px;
+    margin-left: 80px;
+}
+.cop11 .list11{
+    font-family: cursive;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 3px solid;
+    background-color: rgb(78, 92, 151);
+    width: 500px;
+}
+.dados1{
+    margin: 50px;
+    margin-left: 450px;
+}
+.dados1 h3{
+    padding-left: 190px;
+}
+.dados1 .dados2{
+    font-family: cursive;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 3px solid;
+    background-color: rgb(78, 92, 151);
+    width: 500px;
+}
+.rodape{
+    text-align: center;
+    font-family:monospace
 }
