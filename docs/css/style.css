@@ -76,6 +76,9 @@ body{
 .foto img{
     border: 5px solid;
     width: 400px;
+    border-radius: 500px;
+    border-style: groove;
+    border-color: black;
 }
 .text1{
     margin-left: 250px;
@@ -175,3 +178,4 @@ body{
     text-align: center;
     font-family:monospace
 }
+
