@@ -208,18 +208,18 @@ body{
     height: 17vh;
     font-size: 3vh;
 }
-.dad{
+#dad{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.dados1{
+#dados1{
     margin-top: 15vh;
 }
-.dados1 h3{
+#dados1 h3{
     padding-left: 190px;
 }
-.dados1 .dados2{
+#dados1 #dados2{
     font-family: cursive;
     padding: 5px;
     margin-top: 15px;
@@ -228,7 +228,8 @@ body{
     background-color: rgb(78, 92, 151);
     width: 500px;
 }
-.rodape{
+#rodape{
     text-align: center;
     font-family:monospace
 }
+
