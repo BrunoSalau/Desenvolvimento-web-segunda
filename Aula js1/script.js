@@ -1,0 +1,6 @@
+function exibir(){
+    document.getElementById('texto').innerHTML = 'Você sabia que a sardinha é um dos peixes mais consumidos no mundo inteiro? Pequena, mas poderosa, essa espécie é uma verdadeira fonte de nutrientes, rica em ômega-3, proteínas e vitaminas. As sardinhas vivem em grandes cardumes no oceano, o que ajuda na proteção contra predadores. Elas são rápidas e muito importantes para a cadeia alimentar marinha, servindo de alimento para peixes maiores, aves e até mamíferos marinhos. Além disso, a sardinha é famosa por sua versatilidade na cozinha: pode ser consumida fresca, enlatada, assada, frita e até em pastas. É um dos alimentos mais acessíveis e populares, principalmente em países com tradição pesqueira. Um fato curioso é que as sardinhas migratórias fazem longas viagens pelo oceano em busca de alimento, acompanhando as correntes marinhas. Apesar de seu tamanho pequeno, a sardinha é gigante quando o assunto é importância para a alimentação humana e para o equilíbrio dos ecossistemas marinhos. Um fato curioso é que as sardinhas migratórias fazem longas viagens pelo oceano em busca de alimento, acompanhando as correntes'
+}
+function sumir(){
+    document.getElementById('texto').innerHTML = "Veja Mais";
+}
