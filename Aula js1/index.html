@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Meu primeiro site com Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titulo" class="container-fluid bg-primary mp-2 text-center">
+        <h1>Peixes no Mundo</h1>
+    </div>
+    <div class="row">
+        <div class="col-4 bg-secondary border border-2 border-black text-light text-center p-2">Pirarucu</div>
+        <div class="col-4 bg-secondary border border-2 border-black text-light text-center p-2">Tilapia</div>
+        <div class="col-4 bg-secondary border border-2 border-black text-light text-center p-2">Sardinha</div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="row bg-secondary pt-2 pb-2 mt-5 border border-2 border-black">
+        <div class="col-6">
+            <div class="container-fluid bg-dark mx-2 text-light text-center"><h2>Pirarucu</h2></div>
+            <div class="container-fluid mx-2 bg-light text-center">
+                Você sabia que o pirarucu é um dos maiores peixes de água doce do mundo? Também conhecido como "bacalhau da Amazônia", esse verdadeiro gigante pode chegar a mais de 3 metros de comprimento e pesar até 200 quilos!
+
+                    Mas o tamanho não é sua única curiosidade.
+                    
+                    O pirarucu tem uma habilidade especial: ele respira ar atmosférico! Mesmo vivendo na água, ele precisa subir à superfície a cada 15 a 20 minutos para respirar, pois possui uma bexiga natatória modificada que funciona como um pulmão. Isso o ajuda a sobreviver em águas com pouco oxigênio — comuns em áreas alagadas da Amazônia.
+                    
+                    Além disso, sua carne é muito valorizada na culinária brasileira, especialmente seca e salgada, sendo comparada ao bacalhau. Por isso, o pirarucu também é alvo de pesca controlada, com regras rígidas para proteger a espécie da extinção.
+                    
+                    Outra curiosidade interessante: o pirarucu "cuida dos filhos". Durante a reprodução, o macho guarda os ovos e os filhotes na boca até que estejam prontos para nadar sozinhos, garantindo sua sobrevivência.
+            </div>
+        </div>
+        <div class="col-6"><img src="https://th.bing.com/th/id/R.77f76e6a6177da899b37a6c812410d26?rik=qkXSK%2fGERUYCJg&pid=ImgRaw&r=0" class="img-fluid border border-5 border-black"></div>
+    </div>
+    <div class="row bg-primary pt-2 pb-2 mt-5 border border-2 border-black">
+        <div class="col-6">
+            <div class="container-fluid bg-dark mx-2 text-light text-center"><h2>Tilápia</h2></div>
+            <div class="container-fluid mx-2 bg-light text-center">
+                Você sabia que a tilápia é um dos peixes de água doce mais cultivados no mundo? Conhecida pela sua resistência e facilidade de criação, ela é uma das estrelas da piscicultura, sendo uma importante fonte de proteína para milhões de pessoas.
+
+A tilápia é originária da África, mas hoje está presente em rios, lagos e fazendas de peixes em praticamente todos os continentes, graças à sua adaptabilidade a diferentes ambientes e condições de água.
+
+Além disso, a tilápia é um peixe onívoro, o que significa que ela come uma variedade de alimentos, desde plantas aquáticas até pequenos organismos, facilitando sua alimentação em cativeiro.
+
+Outro fato interessante é que a tilápia tem uma reprodução muito eficiente: ela pode desovar várias vezes ao ano, garantindo uma rápida renovação da população — um ponto importante para a produção em larga escala.
+
+Sua carne é leve, saborosa e rica em proteínas, sendo muito apreciada em várias cozinhas pelo mundo.
+
+Outro fato interessante é que a tilápia tem uma reprodução muito eficiente: ela pode desovar várias vezes ao ano, garantindo uma rápida renovação da população — um ponto importante para a produção em larga escala.
+            </div>
+        </div>
+        <div class="col-6 text-center"><img src="https://thvnext.bing.com/th/id/OIP.o1h54B6DuHaqSJKcme84zQHaD4?w=308&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3&ucfimg=1" class="img-fluid border border-5 border-black "></div>
+    </div>
+    <div class="row bg-secondary pt-2 pb-2 mt-5 border border-2 border-black">
+        <div class="col-6">
+            <div class="container-fluid bg-dark mx-2 text-light text-center"><h2>Sardinha</h2></div>
+            <div class="container-fluid mx-2 bg-light text-center">
+                Você sabia que a sardinha é um dos peixes mais consumidos no mundo inteiro? Pequena, mas poderosa, essa espécie é uma verdadeira fonte de nutrientes, rica em ômega-3, proteínas e vitaminas.
+
+As sardinhas vivem em grandes cardumes no oceano, o que ajuda na proteção contra predadores. Elas são rápidas e muito importantes para a cadeia alimentar marinha, servindo de alimento para peixes maiores, aves e até mamíferos marinhos.
+
+Além disso, a sardinha é famosa por sua versatilidade na cozinha: pode ser consumida fresca, enlatada, assada, frita e até em pastas. É um dos alimentos mais acessíveis e populares, principalmente em países com tradição pesqueira.
+
+Um fato curioso é que as sardinhas migratórias fazem longas viagens pelo oceano em busca de alimento, acompanhando as correntes marinhas.
+
+Apesar de seu tamanho pequeno, a sardinha é gigante quando o assunto é importância para a alimentação humana e para o equilíbrio dos ecossistemas marinhos.
+Um fato curioso é que as sardinhas migratórias fazem longas viagens pelo oceano em busca de alimento, acompanhando as correntes.
+            </div>
+        </div>
+        <div class="col-6"><img src="https://img.freepik.com/fotos-premium/sardinha-nadando-no-mar-fotografia-subaquatica-imagem-gerada-por-ia_210643-7634.jpg" class="img-fluid border border-5 border-black"></div>
+    </div>
+    <div class="row p-3 mt-3">
+        <div class="col-md" id="sec1">
+            <h2>Vamos</h2>
+            <p>testar</p>
+        </div>
+        <div class="col-md">
+            <button class="btn btn-warning" onclick="document.getElementById('datahora').innerHTML = Date()">Clique pra ver a data e hora</button>
+            <p id="datahora"></p>
+        </div>
+    </div>
+    <div class="row bg-secondary pt-2 pb-2 mt-5 border border-2 border-black">
+        <div class="col-6">
+            <div class="container-fluid bg-dark mx-2 text-light text-center"><h2>Sardinha</h2></div>
+            <div class="container-fluid mx-2 bg-light text-center">
+                <p onmouseover="exibir()" onmouseout="sumir()" id="texto">Veja mais</p>
+            </div>
+        </div>
+        <div class="col-6"><img src="https://img.freepik.com/fotos-premium/sardinha-nadando-no-mar-fotografia-subaquatica-imagem-gerada-por-ia_210643-7634.jpg" class="img-fluid border border-5 border-black"></div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
